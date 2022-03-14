@@ -1,4 +1,4 @@
-body{
+ body{
     background-color:#141414;;
 }
 
@@ -9,9 +9,15 @@ header{
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
     list-style-type: none;
     color: blanchedalmond;
-}
+    }
+
+    ul.nav>li{
+        border-right: 2px solid #FFFFFF;
+    }
 
 a.logo{
     width: 170px;
@@ -22,4 +28,75 @@ a.logo{
 
 a.logo:hover{
     background: url(../img/LogoHover.svg) no-repeat;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+}
+
+
+a.skype{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(../img/skype.svg) no-repeat;
+}
+
+a.skype:hover{
+    background: url(../img/skypeH.svg) no-repeat;
+}
+
+a.tg{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(../img/tg.svg) no-repeat;
+}
+
+a.tg:hover{
+    background: url(../img/tgH.svg) no-repeat;
+}
+
+a.viber{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(../img/viber.svg) no-repeat;
+}
+
+a.viber:hover{
+    background: url(../img/viberH.svg) no-repeat;
+}
+a.wup{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(../img/wup.svg) no-repeat;
+}
+
+a.wup:hover{
+    background: url(../img/wupH.svg) no-repeat;
+}
+
+a.email{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(../img/email.svg) no-repeat;
+}
+
+a.emaile:hover{
+    background: url(../img/emailH.svg) no-repeat;
+}
+
+button.supportUA {
+    color: white;
+    border: none;
+    width: 241px;
+    height: 42px;
+    background-color: #FB1515;;
 }
