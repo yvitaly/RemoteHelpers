@@ -1,5 +1,21 @@
+body{
+    background-color: black;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    color: blanchedalmond;
+}
+
+a.logo{
+    display: block;
+    width: 200px;
+    height: 100px;
+    background: url(../img/Logo.svg) no-repeat;
+}
+
+a.logo:hover{
+    background: url(../img/LogoHover.svg) no-repeat;
 }
