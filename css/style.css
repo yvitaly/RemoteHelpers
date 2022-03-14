@@ -1,5 +1,9 @@
 body{
-    background-color: black;
+    background-color:#141414;;
+}
+
+header{
+    border-bottom: 2px solid #FFFFFF;
 }
 
 .nav{
@@ -10,9 +14,9 @@ body{
 }
 
 a.logo{
+    width: 170px;
+    height: 40px;
     display: block;
-    width: 200px;
-    height: 100px;
     background: url(../img/Logo.svg) no-repeat;
 }
 
