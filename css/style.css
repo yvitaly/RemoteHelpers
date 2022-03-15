@@ -311,3 +311,37 @@ label{
   color: #FFFFFF;
 }
 
+.employee{
+  margin-top: 50 px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 25%;
+}
+
+.number{
+  display: inline;
+  width: 62px;
+  border: 2px solid #FFFFFF;
+  border-radius: 15%;
+  color: #fff;
+  font-size: 44px;
+}
+
+.column h3{
+  font-size: 30px;
+  color: #fff;
+  display: inline;
+}
+
+.column p{
+  font-size: 24px;
+  color: #fff;
+}
