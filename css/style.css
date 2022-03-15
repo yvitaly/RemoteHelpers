@@ -78,12 +78,11 @@ header{
     }
 
   .nav>li{
+    padding-top: 30px;
     border-right: 2px solid #FFFFFF;
   }
 
 a.logo{
-    margin-top: 30px;
-    margin-left: 96px;
     width: 170px;
     height: 40px;
     display: block;
