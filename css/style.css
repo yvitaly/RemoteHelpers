@@ -72,7 +72,7 @@ header{
 .nav{
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     color: blanchedalmond;
     }
@@ -93,11 +93,9 @@ a.logo:hover{
     background: url(../img/LogoHover.svg) no-repeat;
 }
 
-.social{
+.social {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
     list-style-type: none;
 }
 
@@ -233,6 +231,7 @@ label{
 }
 
 .first h1 {
+  font-family: "Abro Bold";
     text-align: center;
     color:#FFFFFF;
     font-weight: 700;
@@ -241,6 +240,7 @@ label{
 }
 
 .first h2{
+  font-family: "Abro Bold";
   text-align: center;
   color:#FFFFFF;
   font-weight: 700;
@@ -344,3 +344,22 @@ label{
   font-size: 24px;
   color: #fff;
 }
+
+
+
+
+
+
+@font-face {
+  font-family: "Abro Regular"; 
+  src: url("../fonts/AbroSans\ Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+
+  @font-face {
+    font-family: "Abro Bold"; 
+    src: url("../fonts/AbroSans\ Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
