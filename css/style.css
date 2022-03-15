@@ -213,15 +213,23 @@ label{
      display:none;
    }
 
-
-
 .conteiner{
+  
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.wrapper{
+  min-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 0 0 auto;
+    
 }
 
-.conteiner h1, h2 {
+.wrapper h1, h2 {
     text-align: center;
     color:#FFFFFF;
     font-weight: 700;
@@ -230,7 +238,7 @@ label{
     
 }
 
-.conteiner h1{
+.wrapper h1{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #fff;
 }
@@ -271,3 +279,4 @@ label{
 .scroll-wrapper img{
   display: inline;
 }
+
