@@ -254,3 +254,20 @@ label{
   display: flex;	
   justify-content: center;
 }
+.scroll-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.scroll-wrapper a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.scroll-wrapper img{
+  display: inline;
+}
