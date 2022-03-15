@@ -73,17 +73,18 @@ header{
     
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
     list-style-type: none;
     color: blanchedalmond;
     }
 
-    ul.nav>li{
+    .nav>li{
+        
         border-right: 2px solid #FFFFFF;
     }
 
 a.logo{
+    margin-top: 30px;
+    margin-left: 96px;
     width: 170px;
     height: 40px;
     display: block;
@@ -219,6 +220,8 @@ label{
   flex-wrap: nowrap;
   overflow-x: auto;
 }
+
+
 
 .wrapper{
   min-width: 100%;
