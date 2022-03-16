@@ -58,159 +58,9 @@ select {
   font: inherit;
 } 
  
-/* ........................................................................................................... */
+/* ...........................................................................................................*/
 
- body{
-    background-color:#141414;;
-}
-
-header{
-    border-bottom: 2px solid #FFFFFF;
-}
-
-
-.nav{
-    
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    color: blanchedalmond;
-    }
-
-  .nav>li{
-    padding-top: 30px;
-    border-right: 2px solid #FFFFFF;
-  }
-
-a.logo{
-    width: 170px;
-    height: 40px;
-    display: block;
-    background: url(../img/Logo.svg) no-repeat;
-}
-
-a.logo:hover{
-    background: url(../img/LogoHover.svg) no-repeat;
-}
-
-.social {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
-
-a.skype{
-    width: 40px;
-    height: 40px;
-    display: block;
-    background: url(../img/skype.svg) no-repeat;
-}
-
-a.skype:hover{
-    background: url(../img/skypeH.svg) no-repeat;
-}
-
-a.tg{
-    width: 40px;
-    height: 40px;
-    display: block;
-    background: url(../img/tg.svg) no-repeat;
-}
-
-a.tg:hover{
-    background: url(../img/tgH.svg) no-repeat;
-}
-
-a.viber{
-    width: 40px;
-    height: 40px;
-    display: block;
-    background: url(../img/viber.svg) no-repeat;
-}
-
-a.viber:hover{
-    background: url(../img/viberH.svg) no-repeat;
-}
-a.wup{
-    width: 40px;
-    height: 40px;
-    display: block;
-    background: url(../img/wup.svg) no-repeat;
-}
-
-a.wup:hover{
-    background: url(../img/wupH.svg) no-repeat;
-}
-
-a.email{
-    width: 40px;
-    height: 40px;
-    display: block;
-    background: url(../img/email.svg) no-repeat;
-}
-
-a.email:hover{
-    background: url(../img/emailH.svg) no-repeat;
-}
-
-button.supportUA {
-    color: white;
-    border: none;
-    width: 241px;
-    height: 42px;
-    background-color: #FB1515;
-}
-
-button.consultation {
-    color: black;
-    border: none;
-    width: 241px;
-    height: 42px;
-    background-color: #FBBF13;
-}
-
-/* HAMBURGER MENU */
-
-label{
-    display:flex;
-     flex-direction:column;
-     justify-content: flex-end;
-     width:50px;
-     cursor:pointer;
-   }
-   
-   label span{
-     background: #fff;
-     
-     height:3px;
-     margin: 10px 0;
-     transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
-   
-   }
-   
-   
-   span:nth-of-type(1){
-     width:100%;
-     
-   }
-   
-   span:nth-of-type(2){
-     width:75%;
-   }
-   
-   
-   span:nth-of-type(3){
-     width:100%;
-    
-   }
-   
-   
-   input[type="checkbox"]{
-     display:none;
-   }
-
-.conteiner{
+.content{
   
   display: flex;
   flex-wrap: nowrap;
@@ -235,7 +85,7 @@ label{
     text-align: center;
     color:#FFFFFF;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 120px;
     text-transform: uppercase;    
 }
 
@@ -243,14 +93,14 @@ label{
   font-family: "Abro Bold";
   text-align: center;
   color:#FFFFFF;
-  font-weight: 700;
-  font-size: 100px;
+  font-size: 120px;
   text-transform: uppercase;  
 }
 
 .second h1{
-   margin-top: 60px;
-   color:#FFFFFF;
+    font-family: "Abro Bold";
+    margin-top: 60px;
+    color:#FFFFFF;
     font-weight: 700;
     font-size: 100px;
     text-transform: uppercase; 
@@ -262,6 +112,8 @@ label{
 }
 
 .button-wrapper button {
+   font-family: "Abro Regular"; 
+   font-size: 24px;
     display: block;
     color: #FFFFFF;
     width: 200px;
@@ -286,6 +138,7 @@ label{
 }
 
 .scroll-wrapper a{
+  font-family: "Abro Regular"; 
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -343,6 +196,148 @@ label{
 .column p{
   font-size: 24px;
   color: #fff;
+}
+
+
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+.conteiner{
+  width: 1920px;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo a{
+  width: 170px;
+  height: 40px;
+  display: block;
+  background: url(../img/Logo.svg) no-repeat;
+}
+
+.header-logo a:hover{
+  background: url(../img/LogoHover.svg) no-repeat;
+}
+
+.header-social ul{
+  display: flex;
+  
+}
+
+.header-social li{
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.header-social li:last-child{
+  margin-right: 25px;
+}
+
+.header-social li:first-child{
+  margin-left: 33px;
+}
+
+a.skype{
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: url(../img/skype.svg) no-repeat;
+}
+
+a.skype:hover{
+  background: url(../img/skypeH.svg) no-repeat;
+}
+
+a.tg{
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: url(../img/tg.svg) no-repeat;
+}
+
+a.tg:hover{
+  background: url(../img/tgH.svg) no-repeat;
+}
+
+a.viber{
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: url(../img/viber.svg) no-repeat;
+}
+
+a.viber:hover{
+  background: url(../img/viberH.svg) no-repeat;
+}
+a.wup{
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: url(../img/wup.svg) no-repeat;
+}
+
+a.wup:hover{
+  background: url(../img/wupH.svg) no-repeat;
+}
+
+a.email{
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: url(../img/email.svg) no-repeat;
+}
+
+a.email:hover{
+  background: url(../img/emailH.svg) no-repeat;
+}
+
+.supportUA{
+  display: inline-block;
+  font-family: "Abro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FB1515;
+  height: 42px;
+  padding-left: 29px;
+  padding-right: 29px;
+  margin-right: 26x;
+  margin-left: 26px;
+}
+
+.consulation{
+  display: inline-block;
+  font-family: "Abro Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+  color: #141414;
+  background-color: #FBBF13;
+  height: 42px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-right: 26x;
+  margin-left: 26px;
 }
 
 
